@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário HTML</title>
 </head>
 <body>
-    <h1>hello world</h1>
+    <form autocomplete="on" action="pagina2.html" method="get">
+        Nome:
+<input type="text" name="nome" placeholder="Aqui é o nome">
+ <Br>
+ <Br>
+    Sobrenome:
+<input type="text" name="nome" id="sobrenome">
+<Br>
+<Br>
+    Email:
+<input type="email" name="email" id="email"> 
+<Br>
+<br>
+    URL:
+<input type="url" name="url" id="url">
+<br>
+<br>
+Número:
+<input type="number" name="number" id="number">
+<br>
+<br>
+<input type="datetime-local" name="datatempo"/>
+<br>
+<br>
+Radio Button<br>
+<input type="radio" name="videogame" value="Atari"/> Atari <br>
+<input type="radio" name="videogame" value="Super Nitendo"/> Super Nitendo <br>
+<input type="radio" name="videogame" value="Playstation"/> Playstation <br>
+<br>
+Radio Button2<br>
+<input type="radio" name="videogame1"/checked> Nitendinho <br>
+<input type="radio" name="videogame1"/> Nitendo 64 <br>
+<input type="radio" name="videogame1"/> GameBoy <br><br>
+CheckBox:<br>
+<input type="checkbox" name="Atari"/checked> Atari <br>
+<input type="checkbox" name="Super Nitendo"/> Super Nitendo <br>
+<input type="checkbox" name="Playstation"/> Playstation <br><br>
+<br>
+<br>
+<br>
+<input type="submit" value="Enviar">
+    </form>
+    
 </body>
 </html>
