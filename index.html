@@ -8,7 +8,9 @@
 </head>
 <body>
     <form autocomplete="on" action="pagina2.html" method="get">
-        Nome:
+        <fieldset>
+            <legend>Cadastro</legend>
+            Nome:
 <input type="text" name="nome" placeholder="Aqui é o nome">
  <Br>
  <Br>
@@ -20,6 +22,8 @@
 <input type="email" name="email" id="email"> 
 <Br>
 <br>
+        </fieldset>
+        
     URL:
 <input type="url" name="url" id="url">
 <br>
@@ -47,7 +51,13 @@ CheckBox:<br>
 <br>
 <br>
 <br>
-<input type="submit" value="Enviar">
+<input type="submit" value="Enviar"><br><br>
+<select>
+    <option value="html5"> HTLM 5</option>
+    <option value="java"> JAVA</option>
+    <option value="php"> PHP</option>
+    <option value="ruby"> Ruby</option>
+</select>
     </form>
     
 </body>
